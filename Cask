@@ -7,4 +7,5 @@
  (depends-on "ert")
  (depends-on "magit")
  (depends-on "helm")
- (depends-on "cl-lib"))
+ (depends-on "cl-lib")
+ (depends-on "undercover" :git "https://github.com/sviridov/undercover.el" :branch "drop-ert-runner-requirement"))

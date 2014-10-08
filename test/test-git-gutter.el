@@ -22,6 +22,10 @@
 ;;; Code:
 
 (require 'ert)
+
+(require 'undercover)
+(undercover "/git-gutter\\.el$")
+
 (require 'git-gutter)
 
 ;; suppress log message
